@@ -5,7 +5,7 @@
 #SBATCH --partition=shas
 #SBATCH --qos=normal
 #SBATCH --time=00:10:00
-#SBATCH --ntasks=12
+#SBATCH --ntasks=8 
 #SBATCH --cpus-per-task=1
 
 # purge all existing modules
